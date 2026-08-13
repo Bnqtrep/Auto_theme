@@ -1,0 +1,1 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(490,5): error MSB8090: 此项目需要 MSVC 预览版生成工具。请从 Visual Studio 安装程序(“单个组件”选项卡)安装这些工具。了解详细信息: https://aka.ms/msvc/preview

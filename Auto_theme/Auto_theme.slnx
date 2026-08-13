@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Auto_theme/Auto_theme.vcxproj" />
+  <Project Path="Auto_theme/Auto_theme.vcxproj" Id="a328fc2c-83d6-4f61-9606-527ff7228d68" />
 </Solution>
