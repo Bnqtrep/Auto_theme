@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\qaqaq\\Documents\\GitHub\\Auto_theme\\Auto_theme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A328FC2C-83D6-4F61-9606-527FF7228D68}|Auto_theme\\Auto_theme.vcxproj|C:\\Users\\qaqaq\\Documents\\GitHub\\Auto_theme\\Auto_theme\\Auto_theme\\Auto_theme.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A328FC2C-83D6-4F61-9606-527FF7228D68}|Auto_theme\\Auto_theme.vcxproj|solutionrelative:Auto_theme\\Auto_theme.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qaqaq\\Documents\\GitHub\\Auto_theme\\Auto_theme\\Auto_theme\\Auto_theme.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Auto_theme\\Auto_theme.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\qaqaq\\Documents\\GitHub\\Auto_theme\\Auto_theme\\Auto_theme.vcxproj||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -30,7 +30,7 @@
               "RelativeToolTip": "Auto_theme.vcxproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000698|",
-              "WhenOpened": "2026-08-14T04:49:21.171Z",
+              "WhenOpened": "2026-08-14T04:51:55.883Z",
               "EditorCaption": ""
             },
             {
@@ -43,7 +43,7 @@
               "RelativeToolTip": "Auto_theme\\Auto_theme.cpp",
               "ViewState": "AgIAACcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-08-13T07:05:28.723Z",
+              "WhenOpened": "2026-08-14T04:51:55.891Z",
               "EditorCaption": ""
             }
           ]
