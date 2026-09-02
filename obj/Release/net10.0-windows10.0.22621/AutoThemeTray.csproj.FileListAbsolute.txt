@@ -1,0 +1,15 @@
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\AutoThemeTray.exe
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\AutoThemeTray.deps.json
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\AutoThemeTray.runtimeconfig.json
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\AutoThemeTray.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\AutoThemeTray.pdb
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\Microsoft.Windows.SDK.NET.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\bin\Release\net10.0-windows10.0.22621\WinRT.Runtime.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\AutoThemeTray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\AutoThemeTray.csproj.CoreCompileInputs.cache
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\AutoThem.09660A1F.Up2Date
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\AutoThemeTray.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\refint\AutoThemeTray.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\AutoThemeTray.pdb
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\AutoThemeTray.genruntimeconfig.cache
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\obj\Release\net10.0-windows10.0.22621\ref\AutoThemeTray.dll

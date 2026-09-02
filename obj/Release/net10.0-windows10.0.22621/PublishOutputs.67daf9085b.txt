@@ -1,0 +1,7 @@
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\AutoThemeTray.exe
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\AutoThemeTray.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\AutoThemeTray.deps.json
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\AutoThemeTray.runtimeconfig.json
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\AutoThemeTray.pdb
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\Microsoft.Windows.SDK.NET.dll
+C:\Users\qaqaq\.copilot\repos\copilot-worktrees\Auto_theme\bnqtrep-verbose-system\publish\WinRT.Runtime.dll

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <!-- Define the Package (installer) instead of Product -->
+  <Package Name="Auto Theme Tray" Manufacturer="Auto Theme" Version="1.0.0.0" UpgradeCode="12345678-1234-1234-1234-123456789012" Scope="perMachine">
+    
+    <MediaTemplate/>
+
+    <!-- Directory structure -->
+    <StandardDirectory Id="ProgramFilesFolder">
+      <Directory Id="INSTALLFOLDER" Name="Auto Theme Tray"/>
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppProgramMenuDir" Name="Auto Theme Tray"/>
+    </StandardDirectory>
+
+    <!-- Features -->
+    <Feature Id="ProductFeature" Title="Auto Theme Tray" Level="1">
+      <ComponentRef Id="AutoThemeTrayExe"/>
+      <ComponentRef Id="MicrosoftWindowsSDKNETDll"/>
+      <ComponentRef Id="WinRTRuntimeDll"/>
+      <ComponentRef Id="AppIcon"/>
+      <ComponentRef Id="StartMenuShortcut"/>
+      <ComponentRef Id="StartupRegistry"/>
+    </Feature>
+
+    <!-- Components for exe, runtime files, and shortcut -->
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="AutoThemeTrayExe" Guid="12345678-1234-1234-1234-000000000001">
+        <File Id="AutoThemeTrayExeFile" Source="$(var.PublishDir)\AutoThemeTray.exe" KeyPath="yes"/>
+      </Component>
+      <Component Id="MicrosoftWindowsSDKNETDll" Guid="12345678-1234-1234-1234-000000000002">
+        <File Id="MicrosoftWindowsSDKNET" Source="$(var.PublishDir)\Microsoft.Windows.SDK.NET.dll" KeyPath="yes"/>
+      </Component>
+      <Component Id="WinRTRuntimeDll" Guid="12345678-1234-1234-1234-000000000003">
+        <File Id="WinRTRuntime" Source="$(var.PublishDir)\WinRT.Runtime.dll" KeyPath="yes"/>
+      </Component>
+      <Component Id="AppIcon" Guid="12345678-1234-1234-1234-000000000006">
+        <File Id="AppIconFile" Source="$(var.PublishDir)\app.ico" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <DirectoryRef Id="AppProgramMenuDir">
+      <Component Id="StartMenuShortcut" Guid="12345678-1234-1234-1234-000000000004">
+        <Shortcut Id="StartMenuShortcutItem" Name="Auto Theme Tray" Description="Auto theme switcher" Target="[INSTALLFOLDER]AutoThemeTray.exe" WorkingDirectory="INSTALLFOLDER"/>
+        <RemoveFolder Id="RemoveAppProgramMenuDir" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Auto Theme Tray" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Add to Windows startup (HKCU\Software\Microsoft\Windows\CurrentVersion\Run) -->
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="StartupRegistry" Guid="12345678-1234-1234-1234-000000000005">
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\Windows\CurrentVersion\Run" Name="AutoThemeTray" Value="[INSTALLFOLDER]AutoThemeTray.exe" Type="string" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+  </Package>
+</Wix>
